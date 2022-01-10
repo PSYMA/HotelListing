@@ -24,7 +24,7 @@ namespace Hotel_Listing.Models {
         public int CountryId { get; set; } 
     }
 
-    public class HotelModel : CreateCountryModel {
+    public class HotelModel : CreateHotelModel {
         public int Id { get; set; }
         public CountryModel Country { get; set; }
     }
